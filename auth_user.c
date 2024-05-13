@@ -111,7 +111,7 @@ int Creat_User(User *user ,char* name,char* pass_word,char *email){
 
 
 void Print_User(User user){
-    printf("i'am %s User here %s ",user->name,user->email);
+    printf("i'am %s User here and my email are  %s ",user->name,user->email);
 }
 
 int main() {
