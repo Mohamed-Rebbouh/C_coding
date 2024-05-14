@@ -73,8 +73,6 @@ int Email_not_in_csv(const char *email) {
 
 void aloc_User(User *user){
     *user=(User)malloc(sizeof(user));
-    if (*user==NULL)printf("NULL");
-    else printf("good");
 }
 
 int email_regex(char *email){
@@ -127,7 +125,3 @@ int main() {
     free(user1); // Freeing allocated memory
     return 0;
 }
-
-
-
-
